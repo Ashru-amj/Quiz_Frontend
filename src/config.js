@@ -1,2 +1,2 @@
-export const BACKEND_URL = "http://localhost:4000/api";
-export const FRONTEND_URL = "http://localhost:3000";
+export const BACKEND_URL = "https://harmonious-vacherin-35811d.netlify.app/";
+export const FRONTEND_URL = "https://quizzie-gxj9.onrender.com";
