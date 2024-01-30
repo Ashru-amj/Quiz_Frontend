@@ -1114,3 +1114,32 @@ table {
   object-fit: contain;
   border-radius: 10px;
 }
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .q-container {
+    margin: 20px; /* Adjust margin for smaller screens */
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .q-btn-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .q-form-container {
+    width: 100%; /* Take full width on smaller screens */
+  }
+
+  .q-form-input {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .q-btn-signup {
+    width: 100%; /* Take full width on smaller screens */
+  }
+}
