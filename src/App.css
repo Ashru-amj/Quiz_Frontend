@@ -1117,29 +1117,123 @@ table {
 
 
 
+/* Add this at the end of your existing CSS */
 
-
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .q-container {
-    margin: 20px; /* Adjust margin for smaller screens */
-    padding: 20px; /* Adjust padding for smaller screens */
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .q-title {
+    font-size: 40px;
   }
 
   .q-btn-group {
-    flex-direction: column;
-    gap: 10px;
+    gap: 20px;
   }
 
-  .q-form-container {
-    width: 100%; /* Take full width on smaller screens */
+  .q-form-input input {
+    width: 100%;
   }
 
-  .q-form-input {
-    flex-direction: column;
-    gap: 15px;
+  .form-container {
+    max-width: 100%;
+  }
+
+  .q-form-input label {
+    text-align: left;
   }
 
   .q-btn-signup {
-    width: 100%; /* Take full width on smaller screens */
+    width: 100%;
+  }
+
+  .q-form-container {
+    margin: 0;
+  }
+
+  .q-form-container .form-container {
+    padding: 10px;
+  }
+
+  .q-form-container .form-container .form {
+    max-width: 100%;
+  }
+
+  .q-quiz-container {
+    padding: 20px;
+  }
+
+  .quiz-option-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .quiz-option-card {
+    width: 100%;
+  }
+
+  .quiz-next-btn button {
+    width: 100%;
   }
 }
+
+@media (max-width: 480px) {
+  .q-container {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .q-title {
+    font-size: 30px;
+  }
+
+  .q-btn-group {
+    gap: 10px;
+  }
+
+  .q-form-input input {
+    width: 100%;
+  }
+
+  .form-container {
+    max-width: 100%;
+  }
+
+  .q-form-input label {
+    text-align: left;
+  }
+
+  .q-btn-signup {
+    width: 100%;
+  }
+
+  .q-form-container {
+    margin: 0;
+  }
+
+  .q-form-container .form-container {
+    padding: 5px;
+  }
+
+  .q-form-container .form-container .form {
+    max-width: 100%;
+  }
+
+  .q-quiz-container {
+    padding: 10px;
+  }
+
+  .quiz-option-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .quiz-option-card {
+    width: 100%;
+  }
+
+  .quiz-next-btn button {
+    width: 100%;
+  }
+}
+
